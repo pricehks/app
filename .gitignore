@@ -1,42 +1,26 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# --- Angular / Node ---
+node_modules/
+dist/
+.angular/
+coverage/
+tmp/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+# No ignores package-lock.json (se recomienda versionarlo)
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# --- PHP / Composer (backend en api/) ---
+api/vendor/
+api/.env
+# No ignores composer.lock (se recomienda versionarlo)
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
+# --- IDE / SO ---
+.vscode/
 .idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
+*.iml
 .DS_Store
 Thumbs.db
+
+# --- Otros ---
+.env
+*.local
