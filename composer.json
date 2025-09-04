@@ -1,5 +1,7 @@
 {
     "name": "vendor/app",
     "description": "x",
-    "require": {}
+    "require": {
+        "ext-pdo_mysql": "*"
+    }
 }
