@@ -1,0 +1,7 @@
+{
+    "name": "vendor/app",
+    "description": "x",
+    "require": {
+        "ext-pdo_mysql": "*"
+    }
+}
